@@ -9,7 +9,7 @@ def getdata():
   res=accessdata[name];
   for i in res:
    print(i)
- elif len(get_close_matches(name,accessdata.keys())) > 0:
+ elif len(get_close_matches(name,accessdata.keys())) > 0:  # this will give related suggestions to the given word...
    print("did you mean?:",get_close_matches(name,accessdata.keys())[0]);
    c=get_close_matches(name,accessdata.keys())[0]
    print("say yes or NO");
