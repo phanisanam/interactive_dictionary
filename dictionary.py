@@ -21,5 +21,5 @@ def getdata():
    else:
     print("WORD NOT FOUND...");
  else:
-  print("the word doesn't exist... Please double check it...");
+  print("the word doesn't exist... Please double check it......");
 getdata();
